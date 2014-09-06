@@ -32,14 +32,14 @@ def intbit(v,b):
 
 N=int(sys.argv[1])
 prID=int(sys.argv[2])
-outfile=open('./Output/maxcliques'+str(N)+'_'+str(prID)+'.txt','w+')
-gtrack=open('./Output/gtrack'+str(N)+'_'+str(prID)+'.txt','w+')
-cliquecode=('./temp/cliquecode_'+str(prID)+'.txt')
+outfile=open('/scratch/jmille16/tylers_code/Output/maxcliques'+str(N)+'_'+str(prID)+'.txt','w+')
+gtrack=open('/scratch/jmille16/tylers_code/Output/gtrack'+str(N)+'_'+str(prID)+'.txt','w+')
+cliquecode=('/scratch/jmille16/tylers_code/temp/cliquecode_'+str(prID)+'.txt')
 
 print(str(prID))
 
 #For restarting after a crash
-sav=open('./temp/saveplace_'+str(prID)+'.txt','r')
+sav=open('/scratch/jmille16/tylers_code/temp/saveplace_'+str(prID)+'.txt','r')
 sa=sav.readline()
 sv=sa.strip().split()
 sav.close()
@@ -49,7 +49,7 @@ c=0
 size=0
 gcount=1
 #go through each graph
-for line in open('./temp/graphs'+str(N)+'_'+str(prID)+'.txt','r'):
+for line in open('/scratch/jmille16/tylers_code/temp/graphs'+str(N)+'_'+str(prID)+'.txt','r'):
 	t=line.strip().split()
 	if (t):
 		#Each graph starts with the word graph in the file
@@ -81,7 +81,7 @@ for line in open('./temp/graphs'+str(N)+'_'+str(prID)+'.txt','r'):
 				D=np.zeros(2**N,dtype=np.int)
 				ecount=1
 				eset=0
-				for eline in open('./Input/errorfile'+str(N)+'.txt','r'):
+				for eline in open('/scratch/jmille16/tylers_code/Input/errorfile'+str(N)+'.txt','r'):
 					te=eline.strip()
 					#The word Errorset denotes the END of an errorset so when it 
 					#Is found, Submit CL and D to algorithm 2
@@ -127,7 +127,7 @@ for line in open('./temp/graphs'+str(N)+'_'+str(prID)+'.txt','r'):
 						D=np.zeros(2**N,dtype=np.int)
 						ecount=ecount+1
 						#adjusts the saved place
-						sav=open('./temp/saveplace_'+str(prID)+'.txt','w+')
+						sav=open('/scratch/jmille16/tylers_code/temp/saveplace_'+str(prID)+'.txt','w+')
 						sav.write(str(gcount-1)+' '+str(ecount))
 						sav.close()
 					elif (te=='Errorset' and ecount<sv[1]):
@@ -154,6 +154,6 @@ for line in open('./temp/graphs'+str(N)+'_'+str(prID)+'.txt','r'):
 								if(np.dot(ERRX,v)!=0):
 									D[i]=1
 #That should do it
-sav=open('./temp/saveplace_'+str(prID)+'.txt','w+')
+sav=open('/scratch/jmille16/tylers_code/temp/saveplace_'+str(prID)+'.txt','w+')
 sav.write('0 0')
 sav.close()
