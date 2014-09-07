@@ -120,7 +120,7 @@ for line in open('/scratch/jmille16/tylers_code/temp/graphs'+str(N)+'_'+str(prID
 										gr.write(str(e[0])+' ')
 							gr.close()
 							#CALL JAVA PROGRAM!
-							subprocess.call(['java','-Xmx512m','Clique',cliquecode],stdout=outfile)
+							subprocess.call(['java','-Xmx512m','-classpath','/scratch/jmille16/tylers_code','Clique',cliquecode],stdout=outfile)
 							gtrack.write('Graph: '+str(gnum)+' '+str(eset)+'\n')
 							#RESET FOR NEXT ERROR SET
 						CL=np.zeros(2**N,dtype=np.int)

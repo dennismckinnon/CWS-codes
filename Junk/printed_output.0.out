@@ -1,0 +1,11 @@
+--- SharcNET Job Epilogue ---
+              job id: 4799573
+         exit status: 271
+            cpu time: 307s / 168.0h (0 %)
+        elapsed time: 347s / 168.0h (0 %)
+      virtual memory: 423.3M / 1.0G (41 %)
+
+WARNING: Job was killed by user
+WARNING: Job only used 0 % of its requested walltime.
+WARNING: Job only used 0 % of its requested cpu time.
+WARNING: Job only used 41% of its requested memory.
