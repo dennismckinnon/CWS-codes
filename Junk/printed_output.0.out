@@ -9,3 +9,69 @@ WARNING: Job was killed by user
 WARNING: Job only used 0 % of its requested walltime.
 WARNING: Job only used 0 % of its requested cpu time.
 WARNING: Job only used 41% of its requested memory.
+0
+Graph: 279
+[[0 0 0 0 0 0 0 0 1]
+ [0 0 0 0 1 0 0 0 0]
+ [0 0 0 0 0 1 1 0 0]
+ [0 0 0 0 0 0 1 1 1]
+ [0 1 0 0 0 0 0 1 1]
+ [0 0 1 0 0 0 0 1 1]
+ [0 0 1 1 0 0 0 0 1]
+ [0 0 0 1 1 1 0 0 0]
+ [1 0 0 1 1 1 1 0 0]]
+--- SharcNET Job Epilogue ---
+              job id: 4799725
+         exit status: 0
+            cpu time: 11s / 60s (18 %)
+        elapsed time: 12s / 60s (20 %)
+      virtual memory: 416.6M / 2.0G (20 %)
+
+Job completed successfully
+WARNING: Job only used 20 % of its requested walltime.
+WARNING: Job only used 18 % of its requested cpu time.
+WARNING: Job only used 20% of its requested memory.
+0
+Graph: 279
+[[0 0 0 0 0 0 0 0 1]
+ [0 0 0 0 1 0 0 0 0]
+ [0 0 0 0 0 1 1 0 0]
+ [0 0 0 0 0 0 1 1 1]
+ [0 1 0 0 0 0 0 1 1]
+ [0 0 1 0 0 0 0 1 1]
+ [0 0 1 1 0 0 0 0 1]
+ [0 0 0 1 1 1 0 0 0]
+ [1 0 0 1 1 1 1 0 0]]
+--- SharcNET Job Epilogue ---
+              job id: 4799726
+         exit status: 0
+            cpu time: 11s / 60s (18 %)
+        elapsed time: 12s / 60s (20 %)
+      virtual memory: 419.9M / 2.0G (20 %)
+
+Job completed successfully
+WARNING: Job only used 20 % of its requested walltime.
+WARNING: Job only used 18 % of its requested cpu time.
+WARNING: Job only used 20% of its requested memory.
+0
+Graph: 279
+[[0 0 0 0 0 0 0 0 1]
+ [0 0 0 0 1 0 0 0 0]
+ [0 0 0 0 0 1 1 0 0]
+ [0 0 0 0 0 0 1 1 1]
+ [0 1 0 0 0 0 0 1 1]
+ [0 0 1 0 0 0 0 1 1]
+ [0 0 1 1 0 0 0 0 1]
+ [0 0 0 1 1 1 0 0 0]
+ [1 0 0 1 1 1 1 0 0]]
+--- SharcNET Job Epilogue ---
+              job id: 4800727
+         exit status: 0
+            cpu time: 31s / 600s (5 %)
+        elapsed time: 34s / 600s (5 %)
+      virtual memory: 414.0M / 2.0G (20 %)
+
+Job completed successfully
+WARNING: Job only used 5 % of its requested walltime.
+WARNING: Job only used 5 % of its requested cpu time.
+WARNING: Job only used 20% of its requested memory.
