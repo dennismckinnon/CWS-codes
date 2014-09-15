@@ -1,0 +1,21 @@
+3
+Graph: 288
+[[0 0 0 0 0 0 0 0 1]
+ [0 0 0 0 0 0 0 1 0]
+ [0 0 0 0 0 0 1 0 1]
+ [0 0 0 0 1 0 1 0 0]
+ [0 0 0 1 0 0 0 1 1]
+ [0 0 0 0 0 0 1 1 1]
+ [0 0 1 1 0 1 0 0 0]
+ [0 1 0 0 1 1 0 0 0]
+ [1 0 1 0 1 1 0 0 0]]
+--- SharcNET Job Epilogue ---
+              job id: 4800736
+         exit status: 0
+            cpu time: 118.9h / 168.0h (70 %)
+        elapsed time: 119.1h / 168.0h (70 %)
+      virtual memory: 1.8G / 2.0G (91 %)
+
+Job completed successfully
+WARNING: Job only used 70 % of its requested walltime.
+WARNING: Job only used 70 % of its requested cpu time.

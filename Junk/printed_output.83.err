@@ -1,0 +1,4 @@
+Error: Could not find or load main class Clique
+Traceback (most recent call last):
+  File "/scratch/jmille16/tylers_code/gpar2.py", line 130, in <module>
+IOError: [Errno 108] Cannot send after transport endpoint shutdown: '/scratch/jmille16/tylers_code/temp/saveplace_83.txt'

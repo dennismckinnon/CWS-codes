@@ -1,0 +1,19 @@
+57
+Graph: 350
+[[0 0 0 0 1 0 0 0 0]
+ [0 0 0 0 0 0 1 0 1]
+ [0 0 0 0 0 0 0 1 1]
+ [0 0 0 0 0 1 1 0 0]
+ [1 0 0 0 0 1 0 1 0]
+ [0 0 0 1 1 0 0 0 1]
+ [0 1 0 1 0 0 0 1 0]
+ [0 0 1 0 1 0 1 0 1]
+ [0 1 1 0 0 1 0 1 0]]
+--- SharcNET Job Epilogue ---
+              job id: 4800790
+         exit status: 0
+            cpu time: 139.6h / 168.0h (83 %)
+        elapsed time: 139.8h / 168.0h (83 %)
+      virtual memory: 1.8G / 2.0G (91 %)
+
+Job completed successfully

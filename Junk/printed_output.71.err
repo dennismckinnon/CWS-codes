@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/scratch/jmille16/tylers_code/gpar2.py", line 112, in <module>
+    gr=open(cliquecode,'w+')
+IOError: [Errno 4] Interrupted system call: '/scratch/jmille16/tylers_code/temp/cliquecode_71.txt'
